@@ -1,0 +1,8 @@
+# directories
+.vscode/
+.old/
+fonts/
+images/
+
+# files
+desktop.ini
