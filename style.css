@@ -1,0 +1,60 @@
+html {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	padding: 1em;
+	margin: 0em auto;
+	width: 25em;
+}
+
+header, section, article {
+	margin-bottom: 1em;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	text-align: justify;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	margin-bottom: 1ex;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+.footnote {
+	font-size: 50%;
+}
+
+table {
+	width: 100%;
+}
+
+table:nth-child(2), footer {
+	border-top: 1px solid grey;
+}
+
+table:last-child {
+	border-bottom: 1px solid grey;
+}
+
+td {
+	border-bottom: 1px solid grey;
+}
+
+article {
+	padding: 1em;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+footer {
+	font-size: 0.75em;
+}
