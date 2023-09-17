@@ -1,11 +1,13 @@
 html {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.2em;
 }
 
 body {
 	padding: 1em;
 	margin: 0em auto;
-	width: 25em;
+	min-width: 30rex;
+	max-width: 50rex;
 }
 
 header, section, article {
@@ -13,7 +15,7 @@ header, section, article {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
 }
 
 p {
