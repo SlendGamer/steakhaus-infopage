@@ -6,8 +6,8 @@ html {
 body {
 	padding: 1em;
 	margin: 0em auto;
-	min-width: 30rex;
-	max-width: 50rex;
+	min-width: 30ex;
+	max-width: 50ex;
 }
 
 header, section, article {
