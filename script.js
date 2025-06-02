@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
     const today = new Date();
-    const newsArticles = document.querySelectorAll(".news-cards article");
+    const newsArticles = document.querySelectorAll("#expiring");
 
-    newsArticles.forEach(article => {
-        const expiryDate = new Date(article.getAttribute("data-expiry-date"));
+    newsArticles.forEach(elem => {
+        const expiryDate = new Date(elem.getAttribute("expiry-date"));
         
         if (!expiryDate) return;
         if (expiryDate < today) {
-            article.style.display = "none";
+            elem.style.display = "none";
         }
     });
 });
